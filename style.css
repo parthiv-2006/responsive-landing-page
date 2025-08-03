@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.header-image {
+  width: 100%;
+  max-width: 32rem;
+  box-shadow: 2px 2px 5px rgb(70, 70, 70);
+  z-index: 2;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.personal-photo {
+  position: relative;
+}
+
+.about-me h1 {
+  font-family: "Playfair Display", serif;
+  color: rgb(56, 56, 56);
+}
+
+.description {
+  color: rgb(83, 83, 83);
+}
+
+.author-name {
+  font-family: "Playfair Display", serif;
+  color: white;
+  font-size: 3.5rem;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  white-space: nowrap;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1vh 0;
+  min-height: 40vh;
+}
+
+.about-me {
+  width: 100%;
+  max-width: 25rem;
+  background-color: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  padding: 15px 25px 15px 15px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.icons {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 1rem;
+  padding-top: 10px;
+  justify-content: flex-end;
+}
+
+.blue-background {
+  background-color: rgb(100, 141, 196);
+  width: 100%;
+  height: 30vh;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  transform: skewY(-5deg);
+}
+
+.fill-gap {
+  background-color: rgb(100, 141, 196);
+  width: 60%;
+  height: 30vh;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+}
+
+/* Main Section */
+
+.section-heading {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  color: rgb(63, 53, 53);
+  padding: 1rem;
+}
+
+.card-container {
+  max-width: 66rem;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 2.3rem;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-icons {
+  position: absolute;
+  top: 0%;
+  left: 80%;
+}
+
+.card-image img {
+  object-fit: cover;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.card-info {
+  position: relative;
+  padding: 10px;
+  padding-top: 0px;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(100, 141, 196);
+  padding: 30px;
+  margin-top: 2rem;
+  gap: 3rem;
+}
+
+.footer-image img {
+  width: 100%;
+  max-width: 30rem;
+}
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: start;
+  color: white;
+}
+
+.contact-me h1 {
+  margin: 0;
+}
+
+.footer-icons {
+  display: flex;
+  font-size: 2rem;
+  gap: 10px;
+  margin-top: 0;
+  color: black;
+}
+
+
