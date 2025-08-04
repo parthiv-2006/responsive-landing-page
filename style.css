@@ -169,4 +169,49 @@ footer {
   color: black;
 }
 
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    min-height: auto;
+  }
+  .author-name {
+    font-size: 2rem;
+  }
+  .about-me {
+    max-width: 80%;
+    margin-top: -0.5rem;
+  }
+}
 
+
+
+
+@media (max-width: 480px) {
+  footer {
+    flex-direction: column;
+    gap: 0;
+  }
+  .about-me {
+    max-width: 70%;
+  }
+
+  .personal-photo img {
+    width: 85%;
+    margin-left: 2rem;
+  }
+  .card {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section-heading {
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 2.1rem;
+  }
+  .footer-image img {
+    display: none;
+  }
+  
+}
